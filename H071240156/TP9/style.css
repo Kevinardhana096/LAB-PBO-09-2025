@@ -1,0 +1,38 @@
+
+.root {
+    -fx-background-color: #fdf5e6; /* cream */
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.label {
+    -fx-text-fill: #002147; /* navy */
+    -fx-font-size: 14px;
+}
+
+.button {
+    -fx-background-color: #002147; /* navy */
+    -fx-text-fill: #fdf5e6; /* cream */
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-background-radius: 8;
+}
+
+.button:hover {
+    -fx-background-color: #003366;
+}
+
+.text-field {
+    -fx-background-color: #fffaf0;
+    -fx-border-color: #002147;
+    -fx-border-radius: 4;
+    -fx-padding: 4 8;
+}
+
+.image-view {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0.3, 0, 2);
+}
+
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
